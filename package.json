@@ -1,0 +1,32 @@
+{
+  "name": "ggya-blog",
+  "version": "1.0.0",
+  "description": "This is ggya's blog. It's for FE now . ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoguoya/blog.git"
+  },
+  "keywords": [
+    "webpack",
+    "css",
+    "less",
+    "html",
+    "javascript",
+    "ES6",
+    "react",
+    "mobx",
+    "node"
+  ],
+  "author": "ggya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guoguoya/blog/issues"
+  },
+  "homepage": "https://github.com/guoguoya/blog#readme"
+}
