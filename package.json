@@ -8,17 +8,23 @@
     "babel-loader": "^6.2.10",
     "babel-polyfill": "^6.20.0",
     "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.22.0",
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
+    "log4js": "^1.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "webpack": "^1.14.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0"
+    "babel-cli": "^6.18.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.15.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:es": "set NODE_ENV=development && babel-node ./bin/app-dev", 
+    "start:es": "set NODE_ENV=development&& babel-node ./bin/app-dev",
     "start:dev": "",
     "start:pro": ""
   },

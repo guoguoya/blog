@@ -1,0 +1,15 @@
+{
+    "appenders": [
+        {
+            "type": "console",
+            "category": "logconsole"
+        },
+        {
+            "type": "dateFile",
+            "filename": "logs/access.log",
+            "pattern": "-yyyy-MM-dd",
+            "alwaysIncludePattern": true,
+            "category": "logfile"
+        }
+    ]
+}
