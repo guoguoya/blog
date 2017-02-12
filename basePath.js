@@ -1,8 +1,10 @@
 import path from 'path';
 
-let base = {} ;
+let base = {
 
-base.root = path.resolve('./');
+  rootPath: path.resolve('./')
+
+} ;
 
 
 export default base; 

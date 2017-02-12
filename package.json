@@ -12,9 +12,15 @@
     "body-parser": "^1.16.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
+    "highlight": "^0.2.4",
     "log4js": "^1.1.0",
+    "markdown": "^0.5.0",
+    "mobx": "^3.0.2",
+    "mobx-react": "^4.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
+    "showdown": "^1.6.4",
     "webpack": "^1.14.0"
   },
   "devDependencies": {

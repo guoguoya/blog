@@ -8,6 +8,12 @@
 +  cookie-parser 中间件
 +  body-parser 中间件
 
+### 前端技术
+
++ react
++ mobx
++ less
++ JavaScript
 
 ###更新日志
 

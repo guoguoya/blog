@@ -8,6 +8,7 @@ import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import webpackDevConfig from './config/webpack/webpack.dev.config.js';
+import markdownController from './src/controllers/markdown';
 
 const { NODE_ENV } = process.env ; 
 
@@ -94,11 +95,11 @@ app.use(express.static(path.resolve(__dirname, 'static')));
  * router config
  */
 
+app.use('/', markdownController);
 
 
-
-app.get('/', function(req, res){
-  res.sendFile(path.join(basePath.root,'./src/index.html'), {}, function(err){
+app.get('/*', function(req, res){
+  res.sendFile(path.join(basePath.rootPath,'./src/resourses/index.html'), {}, function(err){
     if (err) {
       console.log(err);
       res.status(err.status).end();
