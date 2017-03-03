@@ -14,14 +14,22 @@
 + mobx
 + less
 + JavaScript
++ babel 
++ highlight
++ markdown
+
 
 ###更新日志
 
 17/01/19
- 采用基本express框架搭建服务器
- 采用log4js日志管理
- 添加cookie-parser 中间件
- body-parser 处理请求体内容
+
+采用基本express框架搭建服务器
+采用log4js日志管理
+添加cookie-parser 中间件
+body-parser 处理请求体内容
 
 17/01/20 
- 添加 basePath.js 文件处理路径（这个可能在后续会被替换掉）
+添加 basePath.js 文件处理路径（这个可能在后续会被替换掉）
+
+17/02/26 
+将pages改成containers 不再具体到页面的概念

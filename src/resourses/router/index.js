@@ -1,8 +1,8 @@
 import React , { Component } from 'react';
-import { Router, Route , browserHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-import Page from '../pages/default/index';
-import Article from '../pages/article/index';
+import Base from '../containers/Base/index';
+import Article from '../containers/Article/index';
 
 export default class RouterManage extends Component {
   constructor(props) {
@@ -12,9 +12,10 @@ export default class RouterManage extends Component {
   render() {
     return (
       <Router history={ browserHistory } >
-        <Route path='/' component={ Page }>
+        <Route path='/' component={ Base }>
+          <IndexRoute component= { Base } ></IndexRoute>
+          <Route path='/:articleName/:id' component={ Article }></Route>
         </Route>
-        <Route path='/article' component={ Article }></Route>
       </Router>
     );
   }
